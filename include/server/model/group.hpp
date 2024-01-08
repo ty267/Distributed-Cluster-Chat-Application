@@ -1,7 +1,7 @@
 #ifndef GROUP_H
 #define GROUP_H
 
-#include "groupuser.hpp"
+#include "groupUser.hpp"
 #include <string>
 #include <vector>
 using namespace std;

@@ -10,10 +10,10 @@ using namespace muduo;
 using namespace muduo::net;
 
 #include "redis.hpp"
-#include "groupmodel.hpp"
-#include "friendmodel.hpp"
-#include "usermodel.hpp"
-#include "offlinemessagemodel.hpp"
+#include "groupModel.hpp"
+#include "friendModel.hpp"
+#include "userModel.hpp"
+#include "offlineMessageModel.hpp"
 #include "json.hpp"
 using json = nlohmann::json;
 

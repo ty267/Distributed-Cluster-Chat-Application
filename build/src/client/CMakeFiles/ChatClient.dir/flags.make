@@ -6,5 +6,5 @@ CXX_FLAGS = -g -g
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/ty/chatserver/include -I/home/ty/chatserver/include/server -I/home/ty/chatserver/include/server/db -I/home/ty/chatserver/include/server/model -I/home/ty/chatserver/include/server/redis -I/home/ty/chatserver/thirdparty 
+CXX_INCLUDES = -I"/home/ty/Distributed Cluster Chat Application/include" -I"/home/ty/Distributed Cluster Chat Application/include/server" -I"/home/ty/Distributed Cluster Chat Application/include/server/db" -I"/home/ty/Distributed Cluster Chat Application/include/server/model" -I"/home/ty/Distributed Cluster Chat Application/include/server/redis" -I"/home/ty/Distributed Cluster Chat Application/thirdparty" 
 

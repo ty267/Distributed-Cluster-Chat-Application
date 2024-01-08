@@ -144,8 +144,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/home/ty/chatserver/build",
-		"source" : "/home/ty/chatserver"
+		"build" : "/home/ty/Distributed Cluster Chat Application/build",
+		"source" : "/home/ty/Distributed Cluster Chat Application"
 	},
 	"version" : 
 	{

@@ -6,15 +6,47 @@
 
 #IncludeRegexTransform: 
 
-../include/server/db/db.h
-mysql/mysql.h
--
+../include/mysqlIni.hpp
 string
 -
 
-/home/ty/chatserver/src/server/db/db.cpp
-db.h
-/home/ty/chatserver/src/server/db/db.h
-muduo/base/Logging.h
+../include/server/db/connection.hpp
+mysql/mysql.h
 -
+ctime
+-
+mysqlIni.hpp
+../include/server/db/mysqlIni.hpp
+
+../include/server/db/connectionPool.hpp
+queue
+-
+mutex
+-
+atomic
+-
+thread
+-
+condition_variable
+-
+memory
+-
+functional
+-
+connection.hpp
+../include/server/db/connection.hpp
+
+../include/server/model/user.hpp
+string
+-
+
+../include/server/model/userModel.hpp
+user.hpp
+../include/server/model/user.hpp
+
+/home/ty/Distributed Cluster Chat Application/src/server/model/userModel.cpp
+userModel.hpp
+/home/ty/Distributed Cluster Chat Application/src/server/model/userModel.hpp
+connectionPool.hpp
+/home/ty/Distributed Cluster Chat Application/src/server/model/connectionPool.hpp
 

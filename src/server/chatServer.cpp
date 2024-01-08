@@ -1,6 +1,6 @@
-#include "chatserver.hpp"
+#include "chatServer.hpp"
 #include "json.hpp"
-#include "chatservice.hpp"
+#include "chatService.hpp"
 
 #include <iostream>
 #include <functional>

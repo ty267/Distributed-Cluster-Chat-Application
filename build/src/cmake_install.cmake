@@ -1,4 +1,4 @@
-# Install script for directory: /home/ty/chatserver/src
+# Install script for directory: /home/ty/Distributed Cluster Chat Application/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,8 +39,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/ty/chatserver/build/src/server/cmake_install.cmake")
-  include("/home/ty/chatserver/build/src/client/cmake_install.cmake")
+  include("/home/ty/Distributed Cluster Chat Application/build/src/server/cmake_install.cmake")
+  include("/home/ty/Distributed Cluster Chat Application/build/src/client/cmake_install.cmake")
 
 endif()
 

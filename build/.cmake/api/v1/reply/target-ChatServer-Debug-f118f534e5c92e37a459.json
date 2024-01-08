@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "/home/ty/chatserver/bin/ChatServer"
+			"path" : "/home/ty/Distributed Cluster Chat Application/bin/ChatServer"
 		}
 	],
 	"backtrace" : 1,
@@ -90,27 +90,27 @@
 			[
 				{
 					"backtrace" : 4,
-					"path" : "/home/ty/chatserver/include"
+					"path" : "/home/ty/Distributed Cluster Chat Application/include"
 				},
 				{
 					"backtrace" : 5,
-					"path" : "/home/ty/chatserver/include/server"
+					"path" : "/home/ty/Distributed Cluster Chat Application/include/server"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/home/ty/chatserver/include/server/db"
+					"path" : "/home/ty/Distributed Cluster Chat Application/include/server/db"
 				},
 				{
 					"backtrace" : 7,
-					"path" : "/home/ty/chatserver/include/server/model"
+					"path" : "/home/ty/Distributed Cluster Chat Application/include/server/model"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "/home/ty/chatserver/include/server/redis"
+					"path" : "/home/ty/Distributed Cluster Chat Application/include/server/redis"
 				},
 				{
 					"backtrace" : 9,
-					"path" : "/home/ty/chatserver/thirdparty"
+					"path" : "/home/ty/Distributed Cluster Chat Application/thirdparty"
 				}
 			],
 			"language" : "CXX",
@@ -124,7 +124,8 @@
 				5,
 				6,
 				7,
-				8
+				8,
+				9
 			]
 		}
 	],
@@ -194,7 +195,8 @@
 				5,
 				6,
 				7,
-				8
+				8,
+				9
 			]
 		}
 	],
@@ -203,13 +205,13 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/server/chatserver.cpp",
+			"path" : "src/server/chatServer.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/server/chatservice.cpp",
+			"path" : "src/server/chatService.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -221,31 +223,37 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/server/db/db.cpp",
+			"path" : "src/server/db/commonConnectionPool.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/server/model/friendmoel.cpp",
+			"path" : "src/server/db/connection.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/server/model/groupmodel.cpp",
+			"path" : "src/server/model/friendModel.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/server/model/offlinemessagemodel.cpp",
+			"path" : "src/server/model/groupModel.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/server/model/usermodel.cpp",
+			"path" : "src/server/model/offlineMessageModel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/server/model/userModel.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{

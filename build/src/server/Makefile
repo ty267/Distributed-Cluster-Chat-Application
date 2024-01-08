@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ty/chatserver
+CMAKE_SOURCE_DIR = "/home/ty/Distributed Cluster Chat Application"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ty/chatserver/build
+CMAKE_BINARY_DIR = "/home/ty/Distributed Cluster Chat Application/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ty/chatserver/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ty/chatserver/build/CMakeFiles /home/ty/chatserver/build/src/server/CMakeFiles/progress.marks
-	cd /home/ty/chatserver/build && $(MAKE) -f CMakeFiles/Makefile2 src/server/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ty/chatserver/build/CMakeFiles 0
+	cd "/home/ty/Distributed Cluster Chat Application/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/ty/Distributed Cluster Chat Application/build/CMakeFiles" "/home/ty/Distributed Cluster Chat Application/build/src/server/CMakeFiles/progress.marks"
+	cd "/home/ty/Distributed Cluster Chat Application/build" && $(MAKE) -f CMakeFiles/Makefile2 src/server/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ty/Distributed Cluster Chat Application/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ty/chatserver/build && $(MAKE) -f CMakeFiles/Makefile2 src/server/clean
+	cd "/home/ty/Distributed Cluster Chat Application/build" && $(MAKE) -f CMakeFiles/Makefile2 src/server/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ty/chatserver/build && $(MAKE) -f CMakeFiles/Makefile2 src/server/preinstall
+	cd "/home/ty/Distributed Cluster Chat Application/build" && $(MAKE) -f CMakeFiles/Makefile2 src/server/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ty/chatserver/build && $(MAKE) -f CMakeFiles/Makefile2 src/server/preinstall
+	cd "/home/ty/Distributed Cluster Chat Application/build" && $(MAKE) -f CMakeFiles/Makefile2 src/server/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ty/chatserver/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/home/ty/Distributed Cluster Chat Application/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/server/CMakeFiles/ChatServer.dir/rule:
-	cd /home/ty/chatserver/build && $(MAKE) -f CMakeFiles/Makefile2 src/server/CMakeFiles/ChatServer.dir/rule
+	cd "/home/ty/Distributed Cluster Chat Application/build" && $(MAKE) -f CMakeFiles/Makefile2 src/server/CMakeFiles/ChatServer.dir/rule
 .PHONY : src/server/CMakeFiles/ChatServer.dir/rule
 
 # Convenience name for target.
@@ -122,89 +122,116 @@ ChatServer: src/server/CMakeFiles/ChatServer.dir/rule
 
 # fast build rule for target.
 ChatServer/fast:
-	cd /home/ty/chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/build
+	cd "/home/ty/Distributed Cluster Chat Application/build" && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/build
 .PHONY : ChatServer/fast
 
-chatserver.o: chatserver.cpp.o
+chatServer.o: chatServer.cpp.o
 
-.PHONY : chatserver.o
-
-# target to build an object file
-chatserver.cpp.o:
-	cd /home/ty/chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/chatserver.cpp.o
-.PHONY : chatserver.cpp.o
-
-chatserver.i: chatserver.cpp.i
-
-.PHONY : chatserver.i
-
-# target to preprocess a source file
-chatserver.cpp.i:
-	cd /home/ty/chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/chatserver.cpp.i
-.PHONY : chatserver.cpp.i
-
-chatserver.s: chatserver.cpp.s
-
-.PHONY : chatserver.s
-
-# target to generate assembly for a file
-chatserver.cpp.s:
-	cd /home/ty/chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/chatserver.cpp.s
-.PHONY : chatserver.cpp.s
-
-chatservice.o: chatservice.cpp.o
-
-.PHONY : chatservice.o
+.PHONY : chatServer.o
 
 # target to build an object file
-chatservice.cpp.o:
-	cd /home/ty/chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/chatservice.cpp.o
-.PHONY : chatservice.cpp.o
+chatServer.cpp.o:
+	cd "/home/ty/Distributed Cluster Chat Application/build" && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/chatServer.cpp.o
+.PHONY : chatServer.cpp.o
 
-chatservice.i: chatservice.cpp.i
+chatServer.i: chatServer.cpp.i
 
-.PHONY : chatservice.i
+.PHONY : chatServer.i
 
 # target to preprocess a source file
-chatservice.cpp.i:
-	cd /home/ty/chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/chatservice.cpp.i
-.PHONY : chatservice.cpp.i
+chatServer.cpp.i:
+	cd "/home/ty/Distributed Cluster Chat Application/build" && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/chatServer.cpp.i
+.PHONY : chatServer.cpp.i
 
-chatservice.s: chatservice.cpp.s
+chatServer.s: chatServer.cpp.s
 
-.PHONY : chatservice.s
+.PHONY : chatServer.s
 
 # target to generate assembly for a file
-chatservice.cpp.s:
-	cd /home/ty/chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/chatservice.cpp.s
-.PHONY : chatservice.cpp.s
+chatServer.cpp.s:
+	cd "/home/ty/Distributed Cluster Chat Application/build" && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/chatServer.cpp.s
+.PHONY : chatServer.cpp.s
 
-db/db.o: db/db.cpp.o
+chatService.o: chatService.cpp.o
 
-.PHONY : db/db.o
+.PHONY : chatService.o
 
 # target to build an object file
-db/db.cpp.o:
-	cd /home/ty/chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/db/db.cpp.o
-.PHONY : db/db.cpp.o
+chatService.cpp.o:
+	cd "/home/ty/Distributed Cluster Chat Application/build" && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/chatService.cpp.o
+.PHONY : chatService.cpp.o
 
-db/db.i: db/db.cpp.i
+chatService.i: chatService.cpp.i
 
-.PHONY : db/db.i
+.PHONY : chatService.i
 
 # target to preprocess a source file
-db/db.cpp.i:
-	cd /home/ty/chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/db/db.cpp.i
-.PHONY : db/db.cpp.i
+chatService.cpp.i:
+	cd "/home/ty/Distributed Cluster Chat Application/build" && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/chatService.cpp.i
+.PHONY : chatService.cpp.i
 
-db/db.s: db/db.cpp.s
+chatService.s: chatService.cpp.s
 
-.PHONY : db/db.s
+.PHONY : chatService.s
 
 # target to generate assembly for a file
-db/db.cpp.s:
-	cd /home/ty/chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/db/db.cpp.s
-.PHONY : db/db.cpp.s
+chatService.cpp.s:
+	cd "/home/ty/Distributed Cluster Chat Application/build" && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/chatService.cpp.s
+.PHONY : chatService.cpp.s
+
+db/commonConnectionPool.o: db/commonConnectionPool.cpp.o
+
+.PHONY : db/commonConnectionPool.o
+
+# target to build an object file
+db/commonConnectionPool.cpp.o:
+	cd "/home/ty/Distributed Cluster Chat Application/build" && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/db/commonConnectionPool.cpp.o
+.PHONY : db/commonConnectionPool.cpp.o
+
+db/commonConnectionPool.i: db/commonConnectionPool.cpp.i
+
+.PHONY : db/commonConnectionPool.i
+
+# target to preprocess a source file
+db/commonConnectionPool.cpp.i:
+	cd "/home/ty/Distributed Cluster Chat Application/build" && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/db/commonConnectionPool.cpp.i
+.PHONY : db/commonConnectionPool.cpp.i
+
+db/commonConnectionPool.s: db/commonConnectionPool.cpp.s
+
+.PHONY : db/commonConnectionPool.s
+
+# target to generate assembly for a file
+db/commonConnectionPool.cpp.s:
+	cd "/home/ty/Distributed Cluster Chat Application/build" && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/db/commonConnectionPool.cpp.s
+.PHONY : db/commonConnectionPool.cpp.s
+
+db/connection.o: db/connection.cpp.o
+
+.PHONY : db/connection.o
+
+# target to build an object file
+db/connection.cpp.o:
+	cd "/home/ty/Distributed Cluster Chat Application/build" && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/db/connection.cpp.o
+.PHONY : db/connection.cpp.o
+
+db/connection.i: db/connection.cpp.i
+
+.PHONY : db/connection.i
+
+# target to preprocess a source file
+db/connection.cpp.i:
+	cd "/home/ty/Distributed Cluster Chat Application/build" && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/db/connection.cpp.i
+.PHONY : db/connection.cpp.i
+
+db/connection.s: db/connection.cpp.s
+
+.PHONY : db/connection.s
+
+# target to generate assembly for a file
+db/connection.cpp.s:
+	cd "/home/ty/Distributed Cluster Chat Application/build" && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/db/connection.cpp.s
+.PHONY : db/connection.cpp.s
 
 main.o: main.cpp.o
 
@@ -212,7 +239,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/ty/chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/main.cpp.o
+	cd "/home/ty/Distributed Cluster Chat Application/build" && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -221,7 +248,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/ty/chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/main.cpp.i
+	cd "/home/ty/Distributed Cluster Chat Application/build" && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -230,116 +257,116 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/ty/chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/main.cpp.s
+	cd "/home/ty/Distributed Cluster Chat Application/build" && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-model/friendmoel.o: model/friendmoel.cpp.o
+model/friendModel.o: model/friendModel.cpp.o
 
-.PHONY : model/friendmoel.o
-
-# target to build an object file
-model/friendmoel.cpp.o:
-	cd /home/ty/chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/friendmoel.cpp.o
-.PHONY : model/friendmoel.cpp.o
-
-model/friendmoel.i: model/friendmoel.cpp.i
-
-.PHONY : model/friendmoel.i
-
-# target to preprocess a source file
-model/friendmoel.cpp.i:
-	cd /home/ty/chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/friendmoel.cpp.i
-.PHONY : model/friendmoel.cpp.i
-
-model/friendmoel.s: model/friendmoel.cpp.s
-
-.PHONY : model/friendmoel.s
-
-# target to generate assembly for a file
-model/friendmoel.cpp.s:
-	cd /home/ty/chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/friendmoel.cpp.s
-.PHONY : model/friendmoel.cpp.s
-
-model/groupmodel.o: model/groupmodel.cpp.o
-
-.PHONY : model/groupmodel.o
+.PHONY : model/friendModel.o
 
 # target to build an object file
-model/groupmodel.cpp.o:
-	cd /home/ty/chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/groupmodel.cpp.o
-.PHONY : model/groupmodel.cpp.o
+model/friendModel.cpp.o:
+	cd "/home/ty/Distributed Cluster Chat Application/build" && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/friendModel.cpp.o
+.PHONY : model/friendModel.cpp.o
 
-model/groupmodel.i: model/groupmodel.cpp.i
+model/friendModel.i: model/friendModel.cpp.i
 
-.PHONY : model/groupmodel.i
+.PHONY : model/friendModel.i
 
 # target to preprocess a source file
-model/groupmodel.cpp.i:
-	cd /home/ty/chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/groupmodel.cpp.i
-.PHONY : model/groupmodel.cpp.i
+model/friendModel.cpp.i:
+	cd "/home/ty/Distributed Cluster Chat Application/build" && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/friendModel.cpp.i
+.PHONY : model/friendModel.cpp.i
 
-model/groupmodel.s: model/groupmodel.cpp.s
+model/friendModel.s: model/friendModel.cpp.s
 
-.PHONY : model/groupmodel.s
+.PHONY : model/friendModel.s
 
 # target to generate assembly for a file
-model/groupmodel.cpp.s:
-	cd /home/ty/chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/groupmodel.cpp.s
-.PHONY : model/groupmodel.cpp.s
+model/friendModel.cpp.s:
+	cd "/home/ty/Distributed Cluster Chat Application/build" && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/friendModel.cpp.s
+.PHONY : model/friendModel.cpp.s
 
-model/offlinemessagemodel.o: model/offlinemessagemodel.cpp.o
+model/groupModel.o: model/groupModel.cpp.o
 
-.PHONY : model/offlinemessagemodel.o
+.PHONY : model/groupModel.o
 
 # target to build an object file
-model/offlinemessagemodel.cpp.o:
-	cd /home/ty/chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/offlinemessagemodel.cpp.o
-.PHONY : model/offlinemessagemodel.cpp.o
+model/groupModel.cpp.o:
+	cd "/home/ty/Distributed Cluster Chat Application/build" && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/groupModel.cpp.o
+.PHONY : model/groupModel.cpp.o
 
-model/offlinemessagemodel.i: model/offlinemessagemodel.cpp.i
+model/groupModel.i: model/groupModel.cpp.i
 
-.PHONY : model/offlinemessagemodel.i
+.PHONY : model/groupModel.i
 
 # target to preprocess a source file
-model/offlinemessagemodel.cpp.i:
-	cd /home/ty/chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/offlinemessagemodel.cpp.i
-.PHONY : model/offlinemessagemodel.cpp.i
+model/groupModel.cpp.i:
+	cd "/home/ty/Distributed Cluster Chat Application/build" && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/groupModel.cpp.i
+.PHONY : model/groupModel.cpp.i
 
-model/offlinemessagemodel.s: model/offlinemessagemodel.cpp.s
+model/groupModel.s: model/groupModel.cpp.s
 
-.PHONY : model/offlinemessagemodel.s
+.PHONY : model/groupModel.s
 
 # target to generate assembly for a file
-model/offlinemessagemodel.cpp.s:
-	cd /home/ty/chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/offlinemessagemodel.cpp.s
-.PHONY : model/offlinemessagemodel.cpp.s
+model/groupModel.cpp.s:
+	cd "/home/ty/Distributed Cluster Chat Application/build" && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/groupModel.cpp.s
+.PHONY : model/groupModel.cpp.s
 
-model/usermodel.o: model/usermodel.cpp.o
+model/offlineMessageModel.o: model/offlineMessageModel.cpp.o
 
-.PHONY : model/usermodel.o
+.PHONY : model/offlineMessageModel.o
 
 # target to build an object file
-model/usermodel.cpp.o:
-	cd /home/ty/chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/usermodel.cpp.o
-.PHONY : model/usermodel.cpp.o
+model/offlineMessageModel.cpp.o:
+	cd "/home/ty/Distributed Cluster Chat Application/build" && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/offlineMessageModel.cpp.o
+.PHONY : model/offlineMessageModel.cpp.o
 
-model/usermodel.i: model/usermodel.cpp.i
+model/offlineMessageModel.i: model/offlineMessageModel.cpp.i
 
-.PHONY : model/usermodel.i
+.PHONY : model/offlineMessageModel.i
 
 # target to preprocess a source file
-model/usermodel.cpp.i:
-	cd /home/ty/chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/usermodel.cpp.i
-.PHONY : model/usermodel.cpp.i
+model/offlineMessageModel.cpp.i:
+	cd "/home/ty/Distributed Cluster Chat Application/build" && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/offlineMessageModel.cpp.i
+.PHONY : model/offlineMessageModel.cpp.i
 
-model/usermodel.s: model/usermodel.cpp.s
+model/offlineMessageModel.s: model/offlineMessageModel.cpp.s
 
-.PHONY : model/usermodel.s
+.PHONY : model/offlineMessageModel.s
 
 # target to generate assembly for a file
-model/usermodel.cpp.s:
-	cd /home/ty/chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/usermodel.cpp.s
-.PHONY : model/usermodel.cpp.s
+model/offlineMessageModel.cpp.s:
+	cd "/home/ty/Distributed Cluster Chat Application/build" && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/offlineMessageModel.cpp.s
+.PHONY : model/offlineMessageModel.cpp.s
+
+model/userModel.o: model/userModel.cpp.o
+
+.PHONY : model/userModel.o
+
+# target to build an object file
+model/userModel.cpp.o:
+	cd "/home/ty/Distributed Cluster Chat Application/build" && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/userModel.cpp.o
+.PHONY : model/userModel.cpp.o
+
+model/userModel.i: model/userModel.cpp.i
+
+.PHONY : model/userModel.i
+
+# target to preprocess a source file
+model/userModel.cpp.i:
+	cd "/home/ty/Distributed Cluster Chat Application/build" && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/userModel.cpp.i
+.PHONY : model/userModel.cpp.i
+
+model/userModel.s: model/userModel.cpp.s
+
+.PHONY : model/userModel.s
+
+# target to generate assembly for a file
+model/userModel.cpp.s:
+	cd "/home/ty/Distributed Cluster Chat Application/build" && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/userModel.cpp.s
+.PHONY : model/userModel.cpp.s
 
 redis/redis.o: redis/redis.cpp.o
 
@@ -347,7 +374,7 @@ redis/redis.o: redis/redis.cpp.o
 
 # target to build an object file
 redis/redis.cpp.o:
-	cd /home/ty/chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/redis/redis.cpp.o
+	cd "/home/ty/Distributed Cluster Chat Application/build" && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/redis/redis.cpp.o
 .PHONY : redis/redis.cpp.o
 
 redis/redis.i: redis/redis.cpp.i
@@ -356,7 +383,7 @@ redis/redis.i: redis/redis.cpp.i
 
 # target to preprocess a source file
 redis/redis.cpp.i:
-	cd /home/ty/chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/redis/redis.cpp.i
+	cd "/home/ty/Distributed Cluster Chat Application/build" && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/redis/redis.cpp.i
 .PHONY : redis/redis.cpp.i
 
 redis/redis.s: redis/redis.cpp.s
@@ -365,7 +392,7 @@ redis/redis.s: redis/redis.cpp.s
 
 # target to generate assembly for a file
 redis/redis.cpp.s:
-	cd /home/ty/chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/redis/redis.cpp.s
+	cd "/home/ty/Distributed Cluster Chat Application/build" && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/redis/redis.cpp.s
 .PHONY : redis/redis.cpp.s
 
 # Help Target
@@ -377,30 +404,33 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... ChatServer"
-	@echo "... chatserver.o"
-	@echo "... chatserver.i"
-	@echo "... chatserver.s"
-	@echo "... chatservice.o"
-	@echo "... chatservice.i"
-	@echo "... chatservice.s"
-	@echo "... db/db.o"
-	@echo "... db/db.i"
-	@echo "... db/db.s"
+	@echo "... chatServer.o"
+	@echo "... chatServer.i"
+	@echo "... chatServer.s"
+	@echo "... chatService.o"
+	@echo "... chatService.i"
+	@echo "... chatService.s"
+	@echo "... db/commonConnectionPool.o"
+	@echo "... db/commonConnectionPool.i"
+	@echo "... db/commonConnectionPool.s"
+	@echo "... db/connection.o"
+	@echo "... db/connection.i"
+	@echo "... db/connection.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... model/friendmoel.o"
-	@echo "... model/friendmoel.i"
-	@echo "... model/friendmoel.s"
-	@echo "... model/groupmodel.o"
-	@echo "... model/groupmodel.i"
-	@echo "... model/groupmodel.s"
-	@echo "... model/offlinemessagemodel.o"
-	@echo "... model/offlinemessagemodel.i"
-	@echo "... model/offlinemessagemodel.s"
-	@echo "... model/usermodel.o"
-	@echo "... model/usermodel.i"
-	@echo "... model/usermodel.s"
+	@echo "... model/friendModel.o"
+	@echo "... model/friendModel.i"
+	@echo "... model/friendModel.s"
+	@echo "... model/groupModel.o"
+	@echo "... model/groupModel.i"
+	@echo "... model/groupModel.s"
+	@echo "... model/offlineMessageModel.o"
+	@echo "... model/offlineMessageModel.i"
+	@echo "... model/offlineMessageModel.s"
+	@echo "... model/userModel.o"
+	@echo "... model/userModel.i"
+	@echo "... model/userModel.s"
 	@echo "... redis/redis.o"
 	@echo "... redis/redis.i"
 	@echo "... redis/redis.s"
@@ -415,6 +445,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ty/chatserver/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/home/ty/Distributed Cluster Chat Application/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "/home/ty/chatserver/bin/ChatClient"
+			"path" : "/home/ty/Distributed Cluster Chat Application/bin/ChatClient"
 		}
 	],
 	"backtrace" : 1,
@@ -90,27 +90,27 @@
 			[
 				{
 					"backtrace" : 4,
-					"path" : "/home/ty/chatserver/include"
+					"path" : "/home/ty/Distributed Cluster Chat Application/include"
 				},
 				{
 					"backtrace" : 5,
-					"path" : "/home/ty/chatserver/include/server"
+					"path" : "/home/ty/Distributed Cluster Chat Application/include/server"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/home/ty/chatserver/include/server/db"
+					"path" : "/home/ty/Distributed Cluster Chat Application/include/server/db"
 				},
 				{
 					"backtrace" : 7,
-					"path" : "/home/ty/chatserver/include/server/model"
+					"path" : "/home/ty/Distributed Cluster Chat Application/include/server/model"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "/home/ty/chatserver/include/server/redis"
+					"path" : "/home/ty/Distributed Cluster Chat Application/include/server/redis"
 				},
 				{
 					"backtrace" : 9,
-					"path" : "/home/ty/chatserver/thirdparty"
+					"path" : "/home/ty/Distributed Cluster Chat Application/thirdparty"
 				}
 			],
 			"language" : "CXX",

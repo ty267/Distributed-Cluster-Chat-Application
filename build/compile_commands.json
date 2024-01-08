@@ -1,52 +1,57 @@
 [
 {
-  "directory": "/home/ty/chatserver/build/src/server",
-  "command": "/usr/bin/c++   -I/home/ty/chatserver/include -I/home/ty/chatserver/include/server -I/home/ty/chatserver/include/server/db -I/home/ty/chatserver/include/server/model -I/home/ty/chatserver/include/server/redis -I/home/ty/chatserver/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/chatserver.cpp.o -c /home/ty/chatserver/src/server/chatserver.cpp",
-  "file": "/home/ty/chatserver/src/server/chatserver.cpp"
+  "directory": "/home/ty/Distributed Cluster Chat Application/build/src/server",
+  "command": "/usr/bin/c++   -I\"/home/ty/Distributed Cluster Chat Application/include\" -I\"/home/ty/Distributed Cluster Chat Application/include/server\" -I\"/home/ty/Distributed Cluster Chat Application/include/server/db\" -I\"/home/ty/Distributed Cluster Chat Application/include/server/model\" -I\"/home/ty/Distributed Cluster Chat Application/include/server/redis\" -I\"/home/ty/Distributed Cluster Chat Application/thirdparty\"  -g -g   -o CMakeFiles/ChatServer.dir/chatServer.cpp.o -c \"/home/ty/Distributed Cluster Chat Application/src/server/chatServer.cpp\"",
+  "file": "/home/ty/Distributed Cluster Chat Application/src/server/chatServer.cpp"
 },
 {
-  "directory": "/home/ty/chatserver/build/src/server",
-  "command": "/usr/bin/c++   -I/home/ty/chatserver/include -I/home/ty/chatserver/include/server -I/home/ty/chatserver/include/server/db -I/home/ty/chatserver/include/server/model -I/home/ty/chatserver/include/server/redis -I/home/ty/chatserver/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/chatservice.cpp.o -c /home/ty/chatserver/src/server/chatservice.cpp",
-  "file": "/home/ty/chatserver/src/server/chatservice.cpp"
+  "directory": "/home/ty/Distributed Cluster Chat Application/build/src/server",
+  "command": "/usr/bin/c++   -I\"/home/ty/Distributed Cluster Chat Application/include\" -I\"/home/ty/Distributed Cluster Chat Application/include/server\" -I\"/home/ty/Distributed Cluster Chat Application/include/server/db\" -I\"/home/ty/Distributed Cluster Chat Application/include/server/model\" -I\"/home/ty/Distributed Cluster Chat Application/include/server/redis\" -I\"/home/ty/Distributed Cluster Chat Application/thirdparty\"  -g -g   -o CMakeFiles/ChatServer.dir/chatService.cpp.o -c \"/home/ty/Distributed Cluster Chat Application/src/server/chatService.cpp\"",
+  "file": "/home/ty/Distributed Cluster Chat Application/src/server/chatService.cpp"
 },
 {
-  "directory": "/home/ty/chatserver/build/src/server",
-  "command": "/usr/bin/c++   -I/home/ty/chatserver/include -I/home/ty/chatserver/include/server -I/home/ty/chatserver/include/server/db -I/home/ty/chatserver/include/server/model -I/home/ty/chatserver/include/server/redis -I/home/ty/chatserver/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/main.cpp.o -c /home/ty/chatserver/src/server/main.cpp",
-  "file": "/home/ty/chatserver/src/server/main.cpp"
+  "directory": "/home/ty/Distributed Cluster Chat Application/build/src/server",
+  "command": "/usr/bin/c++   -I\"/home/ty/Distributed Cluster Chat Application/include\" -I\"/home/ty/Distributed Cluster Chat Application/include/server\" -I\"/home/ty/Distributed Cluster Chat Application/include/server/db\" -I\"/home/ty/Distributed Cluster Chat Application/include/server/model\" -I\"/home/ty/Distributed Cluster Chat Application/include/server/redis\" -I\"/home/ty/Distributed Cluster Chat Application/thirdparty\"  -g -g   -o CMakeFiles/ChatServer.dir/main.cpp.o -c \"/home/ty/Distributed Cluster Chat Application/src/server/main.cpp\"",
+  "file": "/home/ty/Distributed Cluster Chat Application/src/server/main.cpp"
 },
 {
-  "directory": "/home/ty/chatserver/build/src/server",
-  "command": "/usr/bin/c++   -I/home/ty/chatserver/include -I/home/ty/chatserver/include/server -I/home/ty/chatserver/include/server/db -I/home/ty/chatserver/include/server/model -I/home/ty/chatserver/include/server/redis -I/home/ty/chatserver/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/db/db.cpp.o -c /home/ty/chatserver/src/server/db/db.cpp",
-  "file": "/home/ty/chatserver/src/server/db/db.cpp"
+  "directory": "/home/ty/Distributed Cluster Chat Application/build/src/server",
+  "command": "/usr/bin/c++   -I\"/home/ty/Distributed Cluster Chat Application/include\" -I\"/home/ty/Distributed Cluster Chat Application/include/server\" -I\"/home/ty/Distributed Cluster Chat Application/include/server/db\" -I\"/home/ty/Distributed Cluster Chat Application/include/server/model\" -I\"/home/ty/Distributed Cluster Chat Application/include/server/redis\" -I\"/home/ty/Distributed Cluster Chat Application/thirdparty\"  -g -g   -o CMakeFiles/ChatServer.dir/db/commonConnectionPool.cpp.o -c \"/home/ty/Distributed Cluster Chat Application/src/server/db/commonConnectionPool.cpp\"",
+  "file": "/home/ty/Distributed Cluster Chat Application/src/server/db/commonConnectionPool.cpp"
 },
 {
-  "directory": "/home/ty/chatserver/build/src/server",
-  "command": "/usr/bin/c++   -I/home/ty/chatserver/include -I/home/ty/chatserver/include/server -I/home/ty/chatserver/include/server/db -I/home/ty/chatserver/include/server/model -I/home/ty/chatserver/include/server/redis -I/home/ty/chatserver/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/model/friendmoel.cpp.o -c /home/ty/chatserver/src/server/model/friendmoel.cpp",
-  "file": "/home/ty/chatserver/src/server/model/friendmoel.cpp"
+  "directory": "/home/ty/Distributed Cluster Chat Application/build/src/server",
+  "command": "/usr/bin/c++   -I\"/home/ty/Distributed Cluster Chat Application/include\" -I\"/home/ty/Distributed Cluster Chat Application/include/server\" -I\"/home/ty/Distributed Cluster Chat Application/include/server/db\" -I\"/home/ty/Distributed Cluster Chat Application/include/server/model\" -I\"/home/ty/Distributed Cluster Chat Application/include/server/redis\" -I\"/home/ty/Distributed Cluster Chat Application/thirdparty\"  -g -g   -o CMakeFiles/ChatServer.dir/db/connection.cpp.o -c \"/home/ty/Distributed Cluster Chat Application/src/server/db/connection.cpp\"",
+  "file": "/home/ty/Distributed Cluster Chat Application/src/server/db/connection.cpp"
 },
 {
-  "directory": "/home/ty/chatserver/build/src/server",
-  "command": "/usr/bin/c++   -I/home/ty/chatserver/include -I/home/ty/chatserver/include/server -I/home/ty/chatserver/include/server/db -I/home/ty/chatserver/include/server/model -I/home/ty/chatserver/include/server/redis -I/home/ty/chatserver/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/model/groupmodel.cpp.o -c /home/ty/chatserver/src/server/model/groupmodel.cpp",
-  "file": "/home/ty/chatserver/src/server/model/groupmodel.cpp"
+  "directory": "/home/ty/Distributed Cluster Chat Application/build/src/server",
+  "command": "/usr/bin/c++   -I\"/home/ty/Distributed Cluster Chat Application/include\" -I\"/home/ty/Distributed Cluster Chat Application/include/server\" -I\"/home/ty/Distributed Cluster Chat Application/include/server/db\" -I\"/home/ty/Distributed Cluster Chat Application/include/server/model\" -I\"/home/ty/Distributed Cluster Chat Application/include/server/redis\" -I\"/home/ty/Distributed Cluster Chat Application/thirdparty\"  -g -g   -o CMakeFiles/ChatServer.dir/model/friendModel.cpp.o -c \"/home/ty/Distributed Cluster Chat Application/src/server/model/friendModel.cpp\"",
+  "file": "/home/ty/Distributed Cluster Chat Application/src/server/model/friendModel.cpp"
 },
 {
-  "directory": "/home/ty/chatserver/build/src/server",
-  "command": "/usr/bin/c++   -I/home/ty/chatserver/include -I/home/ty/chatserver/include/server -I/home/ty/chatserver/include/server/db -I/home/ty/chatserver/include/server/model -I/home/ty/chatserver/include/server/redis -I/home/ty/chatserver/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/model/offlinemessagemodel.cpp.o -c /home/ty/chatserver/src/server/model/offlinemessagemodel.cpp",
-  "file": "/home/ty/chatserver/src/server/model/offlinemessagemodel.cpp"
+  "directory": "/home/ty/Distributed Cluster Chat Application/build/src/server",
+  "command": "/usr/bin/c++   -I\"/home/ty/Distributed Cluster Chat Application/include\" -I\"/home/ty/Distributed Cluster Chat Application/include/server\" -I\"/home/ty/Distributed Cluster Chat Application/include/server/db\" -I\"/home/ty/Distributed Cluster Chat Application/include/server/model\" -I\"/home/ty/Distributed Cluster Chat Application/include/server/redis\" -I\"/home/ty/Distributed Cluster Chat Application/thirdparty\"  -g -g   -o CMakeFiles/ChatServer.dir/model/groupModel.cpp.o -c \"/home/ty/Distributed Cluster Chat Application/src/server/model/groupModel.cpp\"",
+  "file": "/home/ty/Distributed Cluster Chat Application/src/server/model/groupModel.cpp"
 },
 {
-  "directory": "/home/ty/chatserver/build/src/server",
-  "command": "/usr/bin/c++   -I/home/ty/chatserver/include -I/home/ty/chatserver/include/server -I/home/ty/chatserver/include/server/db -I/home/ty/chatserver/include/server/model -I/home/ty/chatserver/include/server/redis -I/home/ty/chatserver/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/model/usermodel.cpp.o -c /home/ty/chatserver/src/server/model/usermodel.cpp",
-  "file": "/home/ty/chatserver/src/server/model/usermodel.cpp"
+  "directory": "/home/ty/Distributed Cluster Chat Application/build/src/server",
+  "command": "/usr/bin/c++   -I\"/home/ty/Distributed Cluster Chat Application/include\" -I\"/home/ty/Distributed Cluster Chat Application/include/server\" -I\"/home/ty/Distributed Cluster Chat Application/include/server/db\" -I\"/home/ty/Distributed Cluster Chat Application/include/server/model\" -I\"/home/ty/Distributed Cluster Chat Application/include/server/redis\" -I\"/home/ty/Distributed Cluster Chat Application/thirdparty\"  -g -g   -o CMakeFiles/ChatServer.dir/model/offlineMessageModel.cpp.o -c \"/home/ty/Distributed Cluster Chat Application/src/server/model/offlineMessageModel.cpp\"",
+  "file": "/home/ty/Distributed Cluster Chat Application/src/server/model/offlineMessageModel.cpp"
 },
 {
-  "directory": "/home/ty/chatserver/build/src/server",
-  "command": "/usr/bin/c++   -I/home/ty/chatserver/include -I/home/ty/chatserver/include/server -I/home/ty/chatserver/include/server/db -I/home/ty/chatserver/include/server/model -I/home/ty/chatserver/include/server/redis -I/home/ty/chatserver/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/redis/redis.cpp.o -c /home/ty/chatserver/src/server/redis/redis.cpp",
-  "file": "/home/ty/chatserver/src/server/redis/redis.cpp"
+  "directory": "/home/ty/Distributed Cluster Chat Application/build/src/server",
+  "command": "/usr/bin/c++   -I\"/home/ty/Distributed Cluster Chat Application/include\" -I\"/home/ty/Distributed Cluster Chat Application/include/server\" -I\"/home/ty/Distributed Cluster Chat Application/include/server/db\" -I\"/home/ty/Distributed Cluster Chat Application/include/server/model\" -I\"/home/ty/Distributed Cluster Chat Application/include/server/redis\" -I\"/home/ty/Distributed Cluster Chat Application/thirdparty\"  -g -g   -o CMakeFiles/ChatServer.dir/model/userModel.cpp.o -c \"/home/ty/Distributed Cluster Chat Application/src/server/model/userModel.cpp\"",
+  "file": "/home/ty/Distributed Cluster Chat Application/src/server/model/userModel.cpp"
 },
 {
-  "directory": "/home/ty/chatserver/build/src/client",
-  "command": "/usr/bin/c++   -I/home/ty/chatserver/include -I/home/ty/chatserver/include/server -I/home/ty/chatserver/include/server/db -I/home/ty/chatserver/include/server/model -I/home/ty/chatserver/include/server/redis -I/home/ty/chatserver/thirdparty  -g -g   -o CMakeFiles/ChatClient.dir/main.cpp.o -c /home/ty/chatserver/src/client/main.cpp",
-  "file": "/home/ty/chatserver/src/client/main.cpp"
+  "directory": "/home/ty/Distributed Cluster Chat Application/build/src/server",
+  "command": "/usr/bin/c++   -I\"/home/ty/Distributed Cluster Chat Application/include\" -I\"/home/ty/Distributed Cluster Chat Application/include/server\" -I\"/home/ty/Distributed Cluster Chat Application/include/server/db\" -I\"/home/ty/Distributed Cluster Chat Application/include/server/model\" -I\"/home/ty/Distributed Cluster Chat Application/include/server/redis\" -I\"/home/ty/Distributed Cluster Chat Application/thirdparty\"  -g -g   -o CMakeFiles/ChatServer.dir/redis/redis.cpp.o -c \"/home/ty/Distributed Cluster Chat Application/src/server/redis/redis.cpp\"",
+  "file": "/home/ty/Distributed Cluster Chat Application/src/server/redis/redis.cpp"
+},
+{
+  "directory": "/home/ty/Distributed Cluster Chat Application/build/src/client",
+  "command": "/usr/bin/c++   -I\"/home/ty/Distributed Cluster Chat Application/include\" -I\"/home/ty/Distributed Cluster Chat Application/include/server\" -I\"/home/ty/Distributed Cluster Chat Application/include/server/db\" -I\"/home/ty/Distributed Cluster Chat Application/include/server/model\" -I\"/home/ty/Distributed Cluster Chat Application/include/server/redis\" -I\"/home/ty/Distributed Cluster Chat Application/thirdparty\"  -g -g   -o CMakeFiles/ChatClient.dir/main.cpp.o -c \"/home/ty/Distributed Cluster Chat Application/src/client/main.cpp\"",
+  "file": "/home/ty/Distributed Cluster Chat Application/src/client/main.cpp"
 }
 ]

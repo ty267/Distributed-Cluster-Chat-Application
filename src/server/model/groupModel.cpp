@@ -1,5 +1,5 @@
-#include "groupmodel.hpp"
-#include "db.h"
+#include "groupModel.hpp"
+#include "connectionPool.hpp"
 
 // 创建群组
 bool GroupModel::createGroup(Group &group)
@@ -9,16 +9,16 @@ bool GroupModel::createGroup(Group &group)
     sprintf(sql, "insert into allgroup(groupname, groupdesc) values('%s', '%s')",
             group.getName().c_str(), group.getDesc().c_str());
 
-    MySQL mysql;
-    if (mysql.connect())
+    ConnectionPool *cp = ConnectionPool::getConnectionPool();
+    shared_ptr<Connection> sp = cp->getConnection();
+    if (!sp)
     {
-        if (mysql.update(sql))
+        if (sp->update(sql))
         {
-            group.setId(mysql_insert_id(mysql.getConnection()));
+            group.setId(mysql_insert_id(sp->getConnection()));
             return true;
         }
     }
-
     return false;
 }
 
@@ -30,16 +30,15 @@ void GroupModel::addGroup(int userid, int groupid, string role)
     sprintf(sql, "insert into groupuser values(%d, %d, '%s')",
             groupid, userid, role.c_str());
 
-    MySQL mysql;
-    if (mysql.connect())
-    {
-        mysql.update(sql);
-    }
+    ConnectionPool *cp = ConnectionPool::getConnectionPool();
+    shared_ptr<Connection> sp = cp->getConnection();
+    sp->update(sql);
 }
 
 // 查询用户所在群组信息
 vector<Group> GroupModel::queryGroups(int userid)
 {
+    vector<Group> groupVec;
     /*
     1. 先根据userid在groupuser表中查询出该用户所属的群组信息
     2. 在根据群组信息，查询属于该群组的所有用户的userid，并且和user表进行多表联合查询，查出用户的详细信息
@@ -49,26 +48,23 @@ vector<Group> GroupModel::queryGroups(int userid)
          groupuser b on a.id = b.groupid where b.userid=%d",
             userid);
 
-    vector<Group> groupVec;
+    ConnectionPool *cp = ConnectionPool::getConnectionPool();
+    shared_ptr<Connection> sp = cp->getConnection();
 
-    MySQL mysql;
-    if (mysql.connect())
+    MYSQL_RES *res = sp->query(sql);
+    if (res != nullptr)
     {
-        MYSQL_RES *res = mysql.query(sql);
-        if (res != nullptr)
+        MYSQL_ROW row;
+        // 查出userid所有的群组信息
+        while ((row = mysql_fetch_row(res)) != nullptr)
         {
-            MYSQL_ROW row;
-            // 查出userid所有的群组信息
-            while ((row = mysql_fetch_row(res)) != nullptr)
-            {
-                Group group;
-                group.setId(atoi(row[0]));
-                group.setName(row[1]);
-                group.setDesc(row[2]);
-                groupVec.push_back(group);
-            }
-            mysql_free_result(res);
+            Group group;
+            group.setId(atoi(row[0]));
+            group.setName(row[1]);
+            group.setDesc(row[2]);
+            groupVec.push_back(group);
         }
+        mysql_free_result(res);
     }
 
     // 查询群组的用户信息
@@ -78,7 +74,7 @@ vector<Group> GroupModel::queryGroups(int userid)
             inner join groupuser b on b.userid = a.id where b.groupid=%d",
                 group.getId());
 
-        MYSQL_RES *res = mysql.query(sql);
+        MYSQL_RES *res = sp->query(sql);
         if (res != nullptr)
         {
             MYSQL_ROW row;
@@ -100,23 +96,23 @@ vector<Group> GroupModel::queryGroups(int userid)
 // 根据指定的groupid查询群组用户id列表，除userid自己，主要用户群聊业务给群组其它成员群发消息
 vector<int> GroupModel::queryGroupUsers(int userid, int groupid)
 {
+    vector<int> idVec;
+
     char sql[1024] = {0};
     sprintf(sql, "select userid from groupuser where groupid = %d and userid != %d", groupid, userid);
 
-    vector<int> idVec;
-    MySQL mysql;
-    if (mysql.connect())
+    ConnectionPool *cp = ConnectionPool::getConnectionPool();
+    shared_ptr<Connection> sp = cp->getConnection();
+
+    MYSQL_RES *res = sp->query(sql);
+    if (res != nullptr)
     {
-        MYSQL_RES *res = mysql.query(sql);
-        if (res != nullptr)
+        MYSQL_ROW row;
+        while ((row = mysql_fetch_row(res)) != nullptr)
         {
-            MYSQL_ROW row;
-            while ((row = mysql_fetch_row(res)) != nullptr)
-            {
-                idVec.push_back(atoi(row[0]));
-            }
-            mysql_free_result(res);
+            idVec.push_back(atoi(row[0]));
         }
+        mysql_free_result(res);
     }
     return idVec;
 }

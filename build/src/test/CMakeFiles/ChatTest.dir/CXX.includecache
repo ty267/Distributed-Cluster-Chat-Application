@@ -1,0 +1,78 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/test/connection.hpp
+mysql/mysql.h
+-
+ctime
+-
+mysqlIni.hpp
+../include/test/mysqlIni.hpp
+
+../include/test/connectionPool.hpp
+queue
+-
+mutex
+-
+atomic
+-
+thread
+-
+condition_variable
+-
+memory
+-
+functional
+-
+connection.hpp
+../include/test/connection.hpp
+
+../include/test/log.hpp
+
+../include/test/mysqlIni.hpp
+string
+-
+
+../include/test/pch.hpp
+
+/home/ty/Distributed Cluster Chat Application/src/test/commonConnectionPool.cpp
+pch.hpp
+/home/ty/Distributed Cluster Chat Application/src/test/pch.hpp
+connectionPool.hpp
+/home/ty/Distributed Cluster Chat Application/src/test/connectionPool.hpp
+log.hpp
+/home/ty/Distributed Cluster Chat Application/src/test/log.hpp
+iostream
+-
+mysqlIni.hpp
+/home/ty/Distributed Cluster Chat Application/src/test/mysqlIni.hpp
+
+/home/ty/Distributed Cluster Chat Application/src/test/connection.cpp
+pch.hpp
+/home/ty/Distributed Cluster Chat Application/src/test/pch.hpp
+log.hpp
+/home/ty/Distributed Cluster Chat Application/src/test/log.hpp
+connection.hpp
+/home/ty/Distributed Cluster Chat Application/src/test/connection.hpp
+iostream
+-
+muduo/base/Logging.h
+-
+
+/home/ty/Distributed Cluster Chat Application/src/test/main.cpp
+pch.hpp
+/home/ty/Distributed Cluster Chat Application/src/test/pch.hpp
+connection.hpp
+/home/ty/Distributed Cluster Chat Application/src/test/connection.hpp
+connectionPool.hpp
+/home/ty/Distributed Cluster Chat Application/src/test/connectionPool.hpp
+iostream
+-
+mysqlIni.hpp
+/home/ty/Distributed Cluster Chat Application/src/test/mysqlIni.hpp
+

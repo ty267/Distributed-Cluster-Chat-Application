@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/ty/chatserver/build"
+			"value" : "/home/ty/Distributed Cluster Chat Application/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -595,7 +595,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/ty/chatserver"
+			"value" : "/home/ty/Distributed Cluster Chat Application"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1131,7 +1131,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/ty/chatserver/build"
+			"value" : "/home/ty/Distributed Cluster Chat Application/build"
 		},
 		{
 			"name" : "chat_SOURCE_DIR",
@@ -1143,7 +1143,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/ty/chatserver"
+			"value" : "/home/ty/Distributed Cluster Chat Application"
 		}
 	],
 	"kind" : "cache",

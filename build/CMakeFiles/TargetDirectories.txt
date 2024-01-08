@@ -1,10 +1,10 @@
-/home/ty/chatserver/build/CMakeFiles/rebuild_cache.dir
-/home/ty/chatserver/build/CMakeFiles/edit_cache.dir
-/home/ty/chatserver/build/src/CMakeFiles/rebuild_cache.dir
-/home/ty/chatserver/build/src/CMakeFiles/edit_cache.dir
-/home/ty/chatserver/build/src/server/CMakeFiles/rebuild_cache.dir
-/home/ty/chatserver/build/src/server/CMakeFiles/edit_cache.dir
-/home/ty/chatserver/build/src/server/CMakeFiles/ChatServer.dir
-/home/ty/chatserver/build/src/client/CMakeFiles/rebuild_cache.dir
-/home/ty/chatserver/build/src/client/CMakeFiles/edit_cache.dir
-/home/ty/chatserver/build/src/client/CMakeFiles/ChatClient.dir
+/home/ty/Distributed Cluster Chat Application/build/CMakeFiles/rebuild_cache.dir
+/home/ty/Distributed Cluster Chat Application/build/CMakeFiles/edit_cache.dir
+/home/ty/Distributed Cluster Chat Application/build/src/CMakeFiles/rebuild_cache.dir
+/home/ty/Distributed Cluster Chat Application/build/src/CMakeFiles/edit_cache.dir
+/home/ty/Distributed Cluster Chat Application/build/src/server/CMakeFiles/rebuild_cache.dir
+/home/ty/Distributed Cluster Chat Application/build/src/server/CMakeFiles/edit_cache.dir
+/home/ty/Distributed Cluster Chat Application/build/src/server/CMakeFiles/ChatServer.dir
+/home/ty/Distributed Cluster Chat Application/build/src/client/CMakeFiles/rebuild_cache.dir
+/home/ty/Distributed Cluster Chat Application/build/src/client/CMakeFiles/edit_cache.dir
+/home/ty/Distributed Cluster Chat Application/build/src/client/CMakeFiles/ChatClient.dir

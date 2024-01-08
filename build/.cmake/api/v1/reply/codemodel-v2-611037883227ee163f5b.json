@@ -85,14 +85,14 @@
 				{
 					"directoryIndex" : 3,
 					"id" : "ChatClient::@8ca63c80a879d0067daa",
-					"jsonFile" : "target-ChatClient-Debug-5d9fc81ca000a8315691.json",
+					"jsonFile" : "target-ChatClient-Debug-3549b8a08c377fb97b0c.json",
 					"name" : "ChatClient",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 2,
 					"id" : "ChatServer::@2804e40980a64c7d7ad1",
-					"jsonFile" : "target-ChatServer-Debug-e6423c9bd83e15948b81.json",
+					"jsonFile" : "target-ChatServer-Debug-f118f534e5c92e37a459.json",
 					"name" : "ChatServer",
 					"projectIndex" : 0
 				}
@@ -102,8 +102,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/ty/chatserver/build",
-		"source" : "/home/ty/chatserver"
+		"build" : "/home/ty/Distributed Cluster Chat Application/build",
+		"source" : "/home/ty/Distributed Cluster Chat Application"
 	},
 	"version" : 
 	{

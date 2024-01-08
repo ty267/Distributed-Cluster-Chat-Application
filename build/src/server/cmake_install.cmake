@@ -1,4 +1,4 @@
-# Install script for directory: /home/ty/chatserver/src/server
+# Install script for directory: /home/ty/Distributed Cluster Chat Application/src/server
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -4,15 +4,16 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ty/chatserver/src/server/chatserver.cpp" "/home/ty/chatserver/build/src/server/CMakeFiles/ChatServer.dir/chatserver.cpp.o"
-  "/home/ty/chatserver/src/server/chatservice.cpp" "/home/ty/chatserver/build/src/server/CMakeFiles/ChatServer.dir/chatservice.cpp.o"
-  "/home/ty/chatserver/src/server/db/db.cpp" "/home/ty/chatserver/build/src/server/CMakeFiles/ChatServer.dir/db/db.cpp.o"
-  "/home/ty/chatserver/src/server/main.cpp" "/home/ty/chatserver/build/src/server/CMakeFiles/ChatServer.dir/main.cpp.o"
-  "/home/ty/chatserver/src/server/model/friendmoel.cpp" "/home/ty/chatserver/build/src/server/CMakeFiles/ChatServer.dir/model/friendmoel.cpp.o"
-  "/home/ty/chatserver/src/server/model/groupmodel.cpp" "/home/ty/chatserver/build/src/server/CMakeFiles/ChatServer.dir/model/groupmodel.cpp.o"
-  "/home/ty/chatserver/src/server/model/offlinemessagemodel.cpp" "/home/ty/chatserver/build/src/server/CMakeFiles/ChatServer.dir/model/offlinemessagemodel.cpp.o"
-  "/home/ty/chatserver/src/server/model/usermodel.cpp" "/home/ty/chatserver/build/src/server/CMakeFiles/ChatServer.dir/model/usermodel.cpp.o"
-  "/home/ty/chatserver/src/server/redis/redis.cpp" "/home/ty/chatserver/build/src/server/CMakeFiles/ChatServer.dir/redis/redis.cpp.o"
+  "/home/ty/Distributed Cluster Chat Application/src/server/chatServer.cpp" "/home/ty/Distributed Cluster Chat Application/build/src/server/CMakeFiles/ChatServer.dir/chatServer.cpp.o"
+  "/home/ty/Distributed Cluster Chat Application/src/server/chatService.cpp" "/home/ty/Distributed Cluster Chat Application/build/src/server/CMakeFiles/ChatServer.dir/chatService.cpp.o"
+  "/home/ty/Distributed Cluster Chat Application/src/server/db/commonConnectionPool.cpp" "/home/ty/Distributed Cluster Chat Application/build/src/server/CMakeFiles/ChatServer.dir/db/commonConnectionPool.cpp.o"
+  "/home/ty/Distributed Cluster Chat Application/src/server/db/connection.cpp" "/home/ty/Distributed Cluster Chat Application/build/src/server/CMakeFiles/ChatServer.dir/db/connection.cpp.o"
+  "/home/ty/Distributed Cluster Chat Application/src/server/main.cpp" "/home/ty/Distributed Cluster Chat Application/build/src/server/CMakeFiles/ChatServer.dir/main.cpp.o"
+  "/home/ty/Distributed Cluster Chat Application/src/server/model/friendModel.cpp" "/home/ty/Distributed Cluster Chat Application/build/src/server/CMakeFiles/ChatServer.dir/model/friendModel.cpp.o"
+  "/home/ty/Distributed Cluster Chat Application/src/server/model/groupModel.cpp" "/home/ty/Distributed Cluster Chat Application/build/src/server/CMakeFiles/ChatServer.dir/model/groupModel.cpp.o"
+  "/home/ty/Distributed Cluster Chat Application/src/server/model/offlineMessageModel.cpp" "/home/ty/Distributed Cluster Chat Application/build/src/server/CMakeFiles/ChatServer.dir/model/offlineMessageModel.cpp.o"
+  "/home/ty/Distributed Cluster Chat Application/src/server/model/userModel.cpp" "/home/ty/Distributed Cluster Chat Application/build/src/server/CMakeFiles/ChatServer.dir/model/userModel.cpp.o"
+  "/home/ty/Distributed Cluster Chat Application/src/server/redis/redis.cpp" "/home/ty/Distributed Cluster Chat Application/build/src/server/CMakeFiles/ChatServer.dir/redis/redis.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
