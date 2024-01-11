@@ -11,7 +11,7 @@ bool GroupModel::createGroup(Group &group)
 
     ConnectionPool *cp = ConnectionPool::getConnectionPool();
     shared_ptr<Connection> sp = cp->getConnection();
-    if (!sp)
+    if (sp)
     {
         if (sp->update(sql))
         {

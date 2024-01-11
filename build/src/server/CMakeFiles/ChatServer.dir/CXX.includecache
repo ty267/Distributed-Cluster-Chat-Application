@@ -36,6 +36,26 @@ functional
 connection.hpp
 ../include/server/db/connection.hpp
 
+../include/server/model/group.hpp
+groupUser.hpp
+../include/server/model/groupUser.hpp
+string
+-
+vector
+-
+
+../include/server/model/groupModel.hpp
+group.hpp
+../include/server/model/group.hpp
+string
+-
+vector
+-
+
+../include/server/model/groupUser.hpp
+user.hpp
+../include/server/model/user.hpp
+
 ../include/server/model/user.hpp
 string
 -
@@ -43,6 +63,12 @@ string
 ../include/server/model/userModel.hpp
 user.hpp
 ../include/server/model/user.hpp
+
+/home/ty/Distributed Cluster Chat Application/src/server/model/groupModel.cpp
+groupModel.hpp
+/home/ty/Distributed Cluster Chat Application/src/server/model/groupModel.hpp
+connectionPool.hpp
+/home/ty/Distributed Cluster Chat Application/src/server/model/connectionPool.hpp
 
 /home/ty/Distributed Cluster Chat Application/src/server/model/userModel.cpp
 userModel.hpp
